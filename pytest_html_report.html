@@ -769,7 +769,7 @@
                           <div style="margin-bottom: -4%; margin-left: 30%;">
                             <span class="time__taken">
                                 <svg width="22px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" style="margin: -1% 2% 0% 29%; -ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1536 1536"><path d="M896 416v448q0 14-9 23t-23 9H544q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h224V416q0-14 9-23t23-9h64q14 0 23 9t9 23zm416 352q0-148-73-273t-198-198t-273-73t-273 73t-198 198t-73 273t73 273t198 198t273 73t273-73t198-198t73-273zm224 0q0 209-103 385.5T1153.5 1433T768 1536t-385.5-103T103 1153.5T0 768t103-385.5T382.5 103T768 0t385.5 103T1433 382.5T1536 768z" fill="#a9a9a9"/></svg>
-                                    Time taken 3.6 secs
+                                    Time taken 0.22 secs
                             </span>
                           </div>
                           <div>
@@ -779,10 +779,10 @@
                                 </div>
                               </div>
                               <div class="card__header">
-                                <span class="header__date">December 01, 2023</span>
+                                <span class="header__date">January 08, 2024</span>
                               </div>
                               <div style="display: flex;">
-                                <span class="total__count">2</span>
+                                <span class="total__count">14</span>
                               </div>
                               <div style="display: flex;">
                                 <span class="total_count__label">TEST CASES</span>
@@ -817,7 +817,7 @@
                                       <div class="footer-section__label">xfailed</div>
                                     </div>
                                     <div class="card__footer-section">
-                                      <div class="footer-section__data" style="color:#b13635">2</div>
+                                      <div class="footer-section__data" style="color:#b13635">14</div>
                                       <div class="footer-section__label">error</div>
                                     </div>
                                     <div class="card__footer-section">
@@ -914,13 +914,13 @@
                     <tbody>
                         
             <tr>
-                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_runfile/test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
-                <td>2</td>
+                <td>14</td>
                 <td>0</td>
             </tr>
         
@@ -944,60 +944,28 @@
                 <tbody>
                     
             <tr>
-                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_runfile/test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
                 <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_a_login</td>
                 <td>ERROR</td>
-                <td>1.9</td>
+                <td>0.0</td>
                 <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
-                    request = <SubRequest 'setup' for <Function test_a
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
                     
-            <a data-toggle="modal" href="#myModal-17014292424272776" class="">(...)</a>
-            <div class="modal fade in" id="myModal-17014292424272776" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-body">
                             <p>
                                 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
-                                request = <SubRequest 'setup' for <Function test_a_login>>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 22
+      @pytest.mark.login
+      def test_a_login(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
 
-    @pytest.fixture()
-    def setup(request):
-        browser_name = request.config.getoption("browser_name")
-        if browser_name == "chrome":
-            options = webdriver.ChromeOptions()
-            # service_obj = Service(config['cm']['CHROME_DRIVER_LOCATION'])
-            # driver = webdriver.Chrome(service=service_obj)
-            driver = webdriver.Chrome(options=options)
-    
-    
-        elif browser_name == "firefox":
-            options = webdriver.FirefoxOptions()
-            driver = webdriver.Firefox(options=options)
-    
-        elif browser_name == "edge":
-            options = webdriver.EdgeOptions()
-            service_obj = Service(config['cm']['MS_EDGE_DRIVER_LOCATION'])
-            driver = webdriver.Edge(service=service_obj, options=options)
-    
-        elif browser_name == "headless":
-            options = Options()
-            options.add_argument("--headless")
-            options.add_argument("window-size=1920x1080")
-            driver = webdriver.Chrome(options=options)
-    
->       driver.get(config['cm']['TEST_URL'])
-
-test_runfile\conftest.py:43: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-
-self = <configparser.ConfigParser object at 0x000001B03DA16000>, key = 'cm'
-
-    def __getitem__(self, key):
-        if key != self.default_section and not self.has_section(key):
->           raise KeyError(key)
-E           KeyError: 'cm'
-
-..\..\AppData\Local\Programs\Python\Python312\Lib\configparser.py:941: KeyError
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:22
 
                             </p>
                         </div>
@@ -1012,60 +980,460 @@ E           KeyError: 'cm'
             </tr>
         
             <tr>
-                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_runfile/test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
                 <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_b_home</td>
                 <td>ERROR</td>
-                <td>1.63</td>
+                <td>0.0</td>
                 <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
-                    request = <SubRequest 'setup' for <Function test_b
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
                     
-            <a data-toggle="modal" href="#myModal-1701429244060372" class="">(...)</a>
-            <div class="modal fade in" id="myModal-1701429244060372" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-body">
                             <p>
                                 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
-                                request = <SubRequest 'setup' for <Function test_b_home>>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 27
+      @pytest.mark.homepage
+      def test_b_home(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
 
-    @pytest.fixture()
-    def setup(request):
-        browser_name = request.config.getoption("browser_name")
-        if browser_name == "chrome":
-            options = webdriver.ChromeOptions()
-            # service_obj = Service(config['cm']['CHROME_DRIVER_LOCATION'])
-            # driver = webdriver.Chrome(service=service_obj)
-            driver = webdriver.Chrome(options=options)
-    
-    
-        elif browser_name == "firefox":
-            options = webdriver.FirefoxOptions()
-            driver = webdriver.Firefox(options=options)
-    
-        elif browser_name == "edge":
-            options = webdriver.EdgeOptions()
-            service_obj = Service(config['cm']['MS_EDGE_DRIVER_LOCATION'])
-            driver = webdriver.Edge(service=service_obj, options=options)
-    
-        elif browser_name == "headless":
-            options = Options()
-            options.add_argument("--headless")
-            options.add_argument("window-size=1920x1080")
-            driver = webdriver.Chrome(options=options)
-    
->       driver.get(config['cm']['TEST_URL'])
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:27
 
-test_runfile\conftest.py:43: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_c_forms</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 35
+      @pytest.mark.forms
+      def test_c_forms(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
 
-self = <configparser.ConfigParser object at 0x000001B03DA16000>, key = 'cm'
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:35
 
-    def __getitem__(self, key):
-        if key != self.default_section and not self.has_section(key):
->           raise KeyError(key)
-E           KeyError: 'cm'
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_d_checklistreport</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 43
+      @pytest.mark.checklistreport
+      def test_d_checklistreport(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
 
-..\..\AppData\Local\Programs\Python\Python312\Lib\configparser.py:941: KeyError
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:43
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_e_formfilledreports</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 51
+      @pytest.mark.formfilledreports
+      def test_e_formfilledreports(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:51
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_f_defaultreport</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 59
+      @pytest.mark.defaultreport
+      def test_f_defaultreport(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:59
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_g_agingreport</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 67
+      @pytest.mark.agingreport
+      def test_g_agingreport(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:67
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_h_assign</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 74
+      @pytest.mark.assign
+      def test_h_assign(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:74
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_i_actiontracker</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 82
+      @pytest.mark.actiontracker
+      def test_i_actiontracker(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:82
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_j_establishrealation</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 90
+      @pytest.mark.establishrealation
+      def test_j_establishrealation(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:90
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_k_calendar</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 98
+      @pytest.mark.calendar
+      def test_k_calendar(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:98
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_l_actionstage</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 106
+      @pytest.mark.actionstage
+      def test_l_actionstage(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:106
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_m_assettype</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 114
+      @pytest.mark.assettype
+      def test_m_assettype(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:114
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_end_to_end.py</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left">test_n_group</td>
+                <td>ERROR</td>
+                <td>0.0</td>
+                <td style="word-wrap: break-word;max-width: 200px; white-space: normal; text-align:left"">
+                    file C:\Users\vijay\OneDrive\Desktop\compliance_au
+                    
+            <a data-toggle="modal" href="#myModal-17046944703495803" class="">(...)</a>
+            <div class="modal fade in" id="myModal-17046944703495803" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1.12em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1856 1664"><path d="M1056 1375v-190q0-14-9.5-23.5t-22.5-9.5H832q-13 0-22.5 9.5T800 1185v190q0 14 9.5 23.5t22.5 9.5h192q13 0 22.5-9.5t9.5-23.5zm-2-374l18-459q0-12-10-19q-13-11-24-11H818q-11 0-24 11q-10 7-10 21l17 457q0 10 10 16.5t24 6.5h185q14 0 23.5-6.5t10.5-16.5zm-14-934l768 1408q35 63-2 126q-17 29-46.5 46t-63.5 17H160q-34 0-63.5-17T50 1601q-37-63-2-126L816 67q17-31 47-49t65-18t65 18t47 49z" fill="#DC143C"/></svg>
+                                file C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py, line 122
+      @pytest.mark.group
+      def test_n_group(self):
+E       fixture 'setup' not found
+>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\Users\vijay\OneDrive\Desktop\compliance_automation\test_end_to_end.py:122
 
                             </p>
                         </div>
@@ -1088,6 +1456,18 @@ E           KeyError: 'cm'
         <div class="tabcontent" id="archives">
             <div id="list-example" class="list-group archive-build-row">
                 
+                    <a class ="list-group-item list-group-item-action" href="#list-item-22" style="font-size: 1.1rem; color: dimgray; margin-bottom: -7%;">
+                        <i class="fa fa-times" aria-hidden="true" style="color: #fc6766"></i>
+                        <span>build #22</span></br>
+                        <span style="font-size: 0.81rem; color: gray; padding-left: 12%;">2024-01-08 | 11:44 am</span>
+                    </a>
+                    
+                    <a class ="list-group-item list-group-item-action" href="#list-item-21" style="font-size: 1.1rem; color: dimgray; margin-bottom: -7%;">
+                        <i class="fa fa-times" aria-hidden="true" style="color: #fc6766"></i>
+                        <span>build #21</span></br>
+                        <span style="font-size: 0.81rem; color: gray; padding-left: 12%;">2024-01-08 | 11:44 am</span>
+                    </a>
+                    
                     <a class ="list-group-item list-group-item-action" href="#list-item-20" style="font-size: 1.1rem; color: dimgray; margin-bottom: -7%;">
                         <i class="fa fa-times" aria-hidden="true" style="color: #fc6766"></i>
                         <span>build #20</span></br>
@@ -1212,6 +1592,158 @@ E           KeyError: 'cm'
         
             <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
                 
+                    <div id="list-item-22" class="archive-body">
+                        <div>
+                            <h4 class="archive-header">
+                                Build #22
+                            </h4>
+                            <div class="archive-date">
+                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+                                JANUARY 08, 2024
+                            </div>
+                        </div>
+                        <div style="margin-top: -5%;">
+                            <div id="archive-container-0" style="padding-top: 5%; position: absolute;">
+                                <div style="">
+                                    <span class="total__tests">14</span>
+                                </div>
+                                <div id="archive-label-0">
+                                    <span class="archive__label">TEST CASES</span>
+                                </div>
+                            </div>
+                            <div class="archive-chart-container">
+                                <canvas id="archive-chart-0" style="margin-top: 10%; padding-left: 25%; margin-right: -16%; float: right;"></canvas>
+                            </div>
+                        </div>
+                        <div class="archive__bar">
+                            <section id="statistic" class="statistic-section-fail one-page-section">
+                                <div class="container" style="margin-top: -2%;">
+                                    <div class="row text-center">
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">PASSED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0
+                                                </h2>
+                                                <p class="stats-text">FAILED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;"v>
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">SKIPPED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">XPASSED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">XFAILED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">14</h2>
+                                                <p class="stats-text">ERROR</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">RERUN</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                
+                    <div id="list-item-21" class="archive-body">
+                        <div>
+                            <h4 class="archive-header">
+                                Build #21
+                            </h4>
+                            <div class="archive-date">
+                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+                                JANUARY 08, 2024
+                            </div>
+                        </div>
+                        <div style="margin-top: -5%;">
+                            <div id="archive-container-1" style="padding-top: 5%; position: absolute;">
+                                <div style="">
+                                    <span class="total__tests">14</span>
+                                </div>
+                                <div id="archive-label-1">
+                                    <span class="archive__label">TEST CASES</span>
+                                </div>
+                            </div>
+                            <div class="archive-chart-container">
+                                <canvas id="archive-chart-1" style="margin-top: 10%; padding-left: 25%; margin-right: -16%; float: right;"></canvas>
+                            </div>
+                        </div>
+                        <div class="archive__bar">
+                            <section id="statistic" class="statistic-section-fail one-page-section">
+                                <div class="container" style="margin-top: -2%;">
+                                    <div class="row text-center">
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">PASSED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0
+                                                </h2>
+                                                <p class="stats-text">FAILED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;"v>
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">SKIPPED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">XPASSED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">XFAILED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">14</h2>
+                                                <p class="stats-text">ERROR</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">RERUN</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                
                     <div id="list-item-20" class="archive-body">
                         <div>
                             <h4 class="archive-header">
@@ -1223,16 +1755,16 @@ E           KeyError: 'cm'
                             </div>
                         </div>
                         <div style="margin-top: -5%;">
-                            <div id="archive-container-0" style="padding-top: 5%; position: absolute;">
+                            <div id="archive-container-2" style="padding-top: 5%; position: absolute;">
                                 <div style="">
                                     <span class="total__tests">2</span>
                                 </div>
-                                <div id="archive-label-0">
+                                <div id="archive-label-2">
                                     <span class="archive__label">TEST CASES</span>
                                 </div>
                             </div>
                             <div class="archive-chart-container">
-                                <canvas id="archive-chart-0" style="margin-top: 10%; padding-left: 25%; margin-right: -16%; float: right;"></canvas>
+                                <canvas id="archive-chart-2" style="margin-top: 10%; padding-left: 25%; margin-right: -16%; float: right;"></canvas>
                             </div>
                         </div>
                         <div class="archive__bar">
@@ -1299,16 +1831,16 @@ E           KeyError: 'cm'
                             </div>
                         </div>
                         <div style="margin-top: -5%;">
-                            <div id="archive-container-1" style="padding-top: 5%; position: absolute;">
+                            <div id="archive-container-3" style="padding-top: 5%; position: absolute;">
                                 <div style="">
                                     <span class="total__tests">2</span>
                                 </div>
-                                <div id="archive-label-1">
+                                <div id="archive-label-3">
                                     <span class="archive__label">TEST CASES</span>
                                 </div>
                             </div>
                             <div class="archive-chart-container">
-                                <canvas id="archive-chart-1" style="margin-top: 10%; padding-left: 25%; margin-right: -16%; float: right;"></canvas>
+                                <canvas id="archive-chart-3" style="margin-top: 10%; padding-left: 25%; margin-right: -16%; float: right;"></canvas>
                             </div>
                         </div>
                         <div class="archive__bar">
@@ -1368,158 +1900,6 @@ E           KeyError: 'cm'
                         <div>
                             <h4 class="archive-header">
                                 Build #18
-                            </h4>
-                            <div class="archive-date">
-                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
-                                DECEMBER 01, 2023
-                            </div>
-                        </div>
-                        <div style="margin-top: -5%;">
-                            <div id="archive-container-2" style="padding-top: 5%; position: absolute;">
-                                <div style="">
-                                    <span class="total__tests">1</span>
-                                </div>
-                                <div id="archive-label-2">
-                                    <span class="archive__label">TEST CASES</span>
-                                </div>
-                            </div>
-                            <div class="archive-chart-container">
-                                <canvas id="archive-chart-2" style="margin-top: 10%; padding-left: 25%; margin-right: -16%; float: right;"></canvas>
-                            </div>
-                        </div>
-                        <div class="archive__bar">
-                            <section id="statistic" class="statistic-section-fail one-page-section">
-                                <div class="container" style="margin-top: -2%;">
-                                    <div class="row text-center">
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0</h2>
-                                                <p class="stats-text">PASSED</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0
-                                                </h2>
-                                                <p class="stats-text">FAILED</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;"v>
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0</h2>
-                                                <p class="stats-text">SKIPPED</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0</h2>
-                                                <p class="stats-text">XPASSED</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0</h2>
-                                                <p class="stats-text">XFAILED</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">1</h2>
-                                                <p class="stats-text">ERROR</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0</h2>
-                                                <p class="stats-text">RERUN</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                
-                    <div id="list-item-17" class="archive-body">
-                        <div>
-                            <h4 class="archive-header">
-                                Build #17
-                            </h4>
-                            <div class="archive-date">
-                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
-                                DECEMBER 01, 2023
-                            </div>
-                        </div>
-                        <div style="margin-top: -5%;">
-                            <div id="archive-container-3" style="padding-top: 5%; position: absolute;">
-                                <div style="">
-                                    <span class="total__tests">1</span>
-                                </div>
-                                <div id="archive-label-3">
-                                    <span class="archive__label">TEST CASES</span>
-                                </div>
-                            </div>
-                            <div class="archive-chart-container">
-                                <canvas id="archive-chart-3" style="margin-top: 10%; padding-left: 25%; margin-right: -16%; float: right;"></canvas>
-                            </div>
-                        </div>
-                        <div class="archive__bar">
-                            <section id="statistic" class="statistic-section-fail one-page-section">
-                                <div class="container" style="margin-top: -2%;">
-                                    <div class="row text-center">
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0</h2>
-                                                <p class="stats-text">PASSED</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0
-                                                </h2>
-                                                <p class="stats-text">FAILED</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;"v>
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0</h2>
-                                                <p class="stats-text">SKIPPED</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0</h2>
-                                                <p class="stats-text">XPASSED</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0</h2>
-                                                <p class="stats-text">XFAILED</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">1</h2>
-                                                <p class="stats-text">ERROR</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
-                                            <div class="counter">
-                                                <h2 class="timer count-title count-number">0</h2>
-                                                <p class="stats-text">RERUN</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                
-                    <div id="list-item-16" class="archive-body">
-                        <div>
-                            <h4 class="archive-header">
-                                Build #16
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -1592,10 +1972,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-15" class="archive-body">
+                    <div id="list-item-17" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #15
+                                Build #17
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -1668,10 +2048,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-14" class="archive-body">
+                    <div id="list-item-16" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #14
+                                Build #16
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -1744,10 +2124,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-13" class="archive-body">
+                    <div id="list-item-15" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #13
+                                Build #15
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -1820,10 +2200,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-12" class="archive-body">
+                    <div id="list-item-14" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #12
+                                Build #14
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -1896,10 +2276,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-11" class="archive-body">
+                    <div id="list-item-13" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #11
+                                Build #13
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -1972,10 +2352,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-10" class="archive-body">
+                    <div id="list-item-12" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #10
+                                Build #12
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -2048,10 +2428,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-9" class="archive-body">
+                    <div id="list-item-11" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #9
+                                Build #11
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -2124,10 +2504,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-8" class="archive-body">
+                    <div id="list-item-10" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #8
+                                Build #10
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -2200,10 +2580,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-7" class="archive-body">
+                    <div id="list-item-9" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #7
+                                Build #9
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -2276,10 +2656,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-6" class="archive-body">
+                    <div id="list-item-8" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #6
+                                Build #8
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -2352,10 +2732,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-5" class="archive-body">
+                    <div id="list-item-7" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #5
+                                Build #7
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -2428,10 +2808,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-4" class="archive-body">
+                    <div id="list-item-6" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #4
+                                Build #6
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -2504,10 +2884,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-3" class="archive-body">
+                    <div id="list-item-5" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #3
+                                Build #5
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -2580,10 +2960,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-2" class="archive-body">
+                    <div id="list-item-4" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #2
+                                Build #4
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -2656,10 +3036,10 @@ E           KeyError: 'cm'
                         </div>
                     </div>
                 
-                    <div id="list-item-1" class="archive-body">
+                    <div id="list-item-3" class="archive-body">
                         <div>
                             <h4 class="archive-header">
-                                Build #1
+                                Build #3
                             </h4>
                             <div class="archive-date">
                                 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
@@ -2677,6 +3057,158 @@ E           KeyError: 'cm'
                             </div>
                             <div class="archive-chart-container">
                                 <canvas id="archive-chart-19" style="margin-top: 10%; padding-left: 25%; margin-right: -16%; float: right;"></canvas>
+                            </div>
+                        </div>
+                        <div class="archive__bar">
+                            <section id="statistic" class="statistic-section-fail one-page-section">
+                                <div class="container" style="margin-top: -2%;">
+                                    <div class="row text-center">
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">PASSED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0
+                                                </h2>
+                                                <p class="stats-text">FAILED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;"v>
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">SKIPPED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">XPASSED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">XFAILED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">1</h2>
+                                                <p class="stats-text">ERROR</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">RERUN</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                
+                    <div id="list-item-2" class="archive-body">
+                        <div>
+                            <h4 class="archive-header">
+                                Build #2
+                            </h4>
+                            <div class="archive-date">
+                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+                                DECEMBER 01, 2023
+                            </div>
+                        </div>
+                        <div style="margin-top: -5%;">
+                            <div id="archive-container-20" style="padding-top: 5%; position: absolute;">
+                                <div style="">
+                                    <span class="total__tests">1</span>
+                                </div>
+                                <div id="archive-label-20">
+                                    <span class="archive__label">TEST CASES</span>
+                                </div>
+                            </div>
+                            <div class="archive-chart-container">
+                                <canvas id="archive-chart-20" style="margin-top: 10%; padding-left: 25%; margin-right: -16%; float: right;"></canvas>
+                            </div>
+                        </div>
+                        <div class="archive__bar">
+                            <section id="statistic" class="statistic-section-fail one-page-section">
+                                <div class="container" style="margin-top: -2%;">
+                                    <div class="row text-center">
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">PASSED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0
+                                                </h2>
+                                                <p class="stats-text">FAILED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;"v>
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">SKIPPED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">XPASSED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">XFAILED</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">1</h2>
+                                                <p class="stats-text">ERROR</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3" style="max-width: 14.2%;">
+                                            <div class="counter">
+                                                <h2 class="timer count-title count-number">0</h2>
+                                                <p class="stats-text">RERUN</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                
+                    <div id="list-item-1" class="archive-body">
+                        <div>
+                            <h4 class="archive-header">
+                                Build #1
+                            </h4>
+                            <div class="archive-date">
+                                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+                                DECEMBER 01, 2023
+                            </div>
+                        </div>
+                        <div style="margin-top: -5%;">
+                            <div id="archive-container-21" style="padding-top: 5%; position: absolute;">
+                                <div style="">
+                                    <span class="total__tests">1</span>
+                                </div>
+                                <div id="archive-label-21">
+                                    <span class="archive__label">TEST CASES</span>
+                                </div>
+                            </div>
+                            <div class="archive-chart-container">
+                                <canvas id="archive-chart-21" style="margin-top: 10%; padding-left: 25%; margin-right: -16%; float: right;"></canvas>
                             </div>
                         </div>
                         <div class="archive__bar">
@@ -2910,7 +3442,7 @@ E           KeyError: 'cm'
                 arr1 = [1, 2, 3, 4, 5];
                 arr2 = ['19%', '14%', '11%', '7%', '4%'];
                 zipped = arr1.map((x, i) => [x, arr2[i]]);
-                var x = parseInt(2);
+                var x = parseInt(14);
                 size = zipped[(x.toString().length)-1][1];
                 document.getElementsByClassName("total__count")[0].style.paddingLeft = `${size}`;
             }
@@ -2967,7 +3499,7 @@ E           KeyError: 'cm'
                     labels: ['PASS', 'FAIL', 'SKIP', 'XPASS', 'XFAIL', 'ERROR'],
                     datasets: [{
                         label: '# of Votes',
-                        data: [0, 0, 0, 0, 0, 2],
+                        data: [0, 0, 0, 0, 0, 14],
                         backgroundColor: [
                             '#98cc64',
                             '#fc6766',
@@ -3045,7 +3577,7 @@ E           KeyError: 'cm'
                         ctx.font = fontSize + "em sans-serif";
                         ctx.textBaseline = "middle";
                         
-                        var passPercent = Math.round((0 / 2) * 100)
+                        var passPercent = Math.round((0 / 14) * 100)
                     
                         var text = passPercent + "%",
                             textX = Math.round((width - ctx.measureText(text).width) / 2),
@@ -3059,9 +3591,9 @@ E           KeyError: 'cm'
         </script>
         
         <script>
-            for(var i=0; i<=20; i++) {
+            for(var i=0; i<=22; i++) {
                 var MeSeContext = document.getElementById("archive-chart-"+i).getContext("2d");
-                var archives = {'0': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '2', 'rerun': '0', 'total': '2'}, '1': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '2', 'rerun': '0', 'total': '2'}, '2': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '3': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '4': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '5': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '6': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '7': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '8': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '9': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '10': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '11': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '12': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '13': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '14': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '15': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '16': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '17': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '18': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '19': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}};
+                var archives = {'0': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '14', 'rerun': '0', 'total': '14'}, '1': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '14', 'rerun': '0', 'total': '14'}, '2': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '2', 'rerun': '0', 'total': '2'}, '3': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '2', 'rerun': '0', 'total': '2'}, '4': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '5': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '6': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '7': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '8': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '9': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '10': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '11': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '12': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '13': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '14': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '15': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '16': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '17': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '18': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '19': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '20': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}, '21': {'pass': '0', 'fail': '0', 'skip': '0', 'xpass': '0', 'xfail': '0', 'error': '1', 'rerun': '0', 'total': '1'}};
                 var pass = archives[i].pass;
                 var fail = archives[i].fail;
                 var skip = archives[i].skip;
@@ -3164,7 +3696,7 @@ E           KeyError: 'cm'
                         hoverBackgroundColor: '#8b2828',
                         borderColor: '#b13635',
                         borderWidth: 1,
-                        data: [2]
+                        data: [14]
                     }]
                 },
                 options: {
@@ -3213,7 +3745,7 @@ E           KeyError: 'cm'
             var trends = new Chart(lineCanvas, {
                 type: 'line',
                 data: {
-                  labels : ['4:44 PM | Dec 01', '4:7 PM | Dec 01', '3:26 PM | Dec 01', '3:5 PM | Dec 01', '2:58 PM | Dec 01', '2:55 PM | Dec 01'],
+                  labels : ['11:44 AM | Jan 08', '11:44 AM | Jan 08', '4:44 PM | Dec 01', '4:7 PM | Dec 01', '3:26 PM | Dec 01', '3:5 PM | Dec 01'],
                   datasets : [
                     {
                       label: 'Passed',
@@ -3227,7 +3759,7 @@ E           KeyError: 'cm'
                       fill: false,
                       borderColor : "#fc6766",
                       pointBackgroundColor : "#d68d8c",
-                      data : [2, 2, 1, 1, 1, 1]
+                      data : [14, 14, 2, 2, 1, 1]
                     },
                     {
                       label: 'Skipped',
